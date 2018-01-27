@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "httpster": "^1.0.3"
+  },
+  "name": "ch02_04",
+  "version": "1.0.0",
+  "description": "Excersise from Essential training",
+  "main": "index.html",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "httpster": "^1.0.3"
+  },
+  "scripts": {
+    "start": "httpster -d ./ -p 3000"
+  },
+  "author": "David Moreno",
+  "license": "ISC"
+}
